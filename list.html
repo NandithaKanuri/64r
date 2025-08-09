@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <h2>1.What is HTML?</h2>
+        <ul>
+            <li type="disc"><b>HTML</b> stands for <b>HyperText Markup Language.</b> It’s the standard language used to create and structure content on the web.</li>
+            <li type="disc">Think of it as the skeleton of a webpage — it tells the browser what is on the page (headings, paragraphs, images, links, etc.), but not necessarily how it looks (that’s where CSS comes in)."</li>
+            <b><li type="disc"><U>Here’s the gist:</U></li></b>
+            <li type="disc"><b>HyperText</b>→Text that links to other text or resources (like hyperlinks).</li>
+            <li type="disc"><b>Markup</b>→ Special tags that describe the structure of the content.</li>
+            <li type="disc"><b>Language</b>→A set of rules for writing those tags.</li></ul></ol>
+    <ol>
+        <h2>2.What are the difference between XHTML and HTML?</h2>
+        <ul>
+            <b><li type="disc"><U>XHTML</U></li></b>
+            <p>XHTML stands for eXtensible HyperText Markup Language.It’s basically HTML rewritten to follow XML rules — meaning it’s stricter, more structured, and less forgiving about mistakes.</p></ul>
+            <ul><dd><li type="square"><b>Rules</b>:Very strict (follows XML rules).</li></dd>
+                <dd><li type="square"><b>Tag Closing</b>:All tags must be closed.</li></dd>
+                <dd><li type="square"><b>Case Sensitivity</b>:Tags & attributes must be lowercase</li></dd>
+                <dd><li type="square"><b>Doctype</b>:XML-based Doctype</li></dd></ul> 
+        <ul>         
+            <b><li type="disc"><U>HTML</U></li></b>
+            <p>HTML is the standard markup language used to create web pages.HTML is lenient:browsers are forgiving if you make small mistakes like missing closing tags or not using lowercase letters.</p></ul>
+            <ul><dd><li type="square"><b>Rules</b>:More relaxed</li></dd>
+                <dd><li type="square"><b>Tag Closing</b>:	Optional for some tags</li></dd>
+                <dd><li type="square"><b>Case Sensitivity</b>:Not case sensitive</li></dd>
+                <dd><li type="square"><b>Doctype</b>:!DOCTYPE html(HTML5)</li></dd></ul></ol>
+    <ol>
+        <h2>3.What is a tag?</h2>
+        <ul>
+            <p>In HTML (and XHTML), a tag is a special keyword enclosed in angle brackets (< >) that tells the browser how to display content.
+            Tags usually come in pairs (start tag + end tag) or sometimes stand alone.The start tag tells the browser "start applying this rule," and the end tag tells it "stop here.</p></ul>               
+            <ul><li type="circle"><b><U>Paired Tags</U></b></li></ul>
+            <ul><dd><li type="square">Have both an opening tag and a closing tag.</li></dd>
+            <dd><li type="square">Enclose some content between them.</li></dd>
+            <dd><li type="square">Closing tag has a forward slash (/) before the name.</li></dd></ul>
+            <ul><li type="circle"><b><U>Unpaired Tags</U></b></li></ul>
+            <ul><dd><li type="square">Do not wrap any content.</li></dd>
+            <dd><li type="square">They stand alone and don’t need a closing tag.</li></dd>
+            <dd><li type="square">In HTML, they can be written without the /.In XHTML, they must be written as self-closing(/tagname>)</li></dd></ul>
+        </ol>  
+     <ol>
+        <h2>4.What are elements?</h2> 
+        <ul>
+            <p>In HTML (and XHTML), an element is the complete building block of a webpage.It’s not just the tag — it’s the tag + content + closing tag (or just the tag if it’s empty).There are 3 types of elements:</p></ul>
+            <ul><li type="circle"><b><U>Block elements:</U></b></li></ul>
+            <ul><dd><li type="square">Occupy the full width available.</li></dd>
+            <dd><li type="square">Always start on a new line.</li></dd>
+            <dd><li type="square">You can set width, height, margins, and padding.</li></dd></ul>
+            <ul><li type="circle"><b><U>Inline elements</U></b></li></ul>
+            <ul><dd><li type="square">Only take up as much width as the content inside them.</li></dd>
+            <dd><li type="square">Stay on the same line with other inline elements.</li></dd>
+            <dd><li type="square">You cannot set width/height directly.</li></dd></ul>
+            <ul><li type="circle"><b><U>Inline-block elements</U></b></li></ul>
+            <ul><dd><li type="square">Behave like inline elements (can sit next to each other).</li></dd>
+            <dd><li type="square">But you can set width, height, margins, and padding like block elements.</li></dd></ul></ol>
+    <ol>
+        <h2>5.What are the differences between HTML4 and HTML5?</h2>
+        <ul>
+            <b><li type="disc"><U>HTML4</U></li></b>
+            <p>HTML4 (HyperText Markup Language, Version 4) is a markup language standard released by the W3C in December 1997 and revised in 1999.It was the most widely used version of HTML before HTML5 came along.</p></ul>
+            <ul><dd><li type="square"><b>Doctype Declaration</b>:Long and specific to the DTD (Document Type Definition).</li></dd>
+                <dd><li type="square"><b>Structure & Semantics</b>:Relied on div and span for layout.</li></dd>
+                <dd><li type="square"><b>Syntax Rules</b>:Stricter attribute rules, required type for scripts/styles.</li></dd>
+                <dd><li type="square"><b>APIs</b>:Mainly DOM scripting.DOM scripting in HTML4 refers to using JavaScript to interact with the Document Object Model (DOM) of a webpage — meaning you can read, change, add, or remove elements and their content dynamically after the page loads.</li></dd></ul> 
+        <ul>         
+            <b><li type="disc"><U>HTML5</U></li></b>
+            <p>HTML5 (HyperText Markup Language, Version 5) is the latest standard of HTML, officially released by the W3C in October 2014.
+It was designed to make the web more powerful, semantic, multimedia-rich, and mobile-friendly without needing extra plugins like Flash.</p></ul>
+            <ul><dd><li type="square"><b>Doctype Declaration</b>:Short and easy to remember</li></dd>
+                <dd><li type="square"><b>Structure & Semantics</b>:Introduced semantic elements like header,main,footer nav etc.</li></dd>
+                <dd><li type="square"><b>Syntax Rules</b>:Attributes like checked or disabled don’t need values.Quotes optional in some cases.Tags are case-insensitive</li></dd>
+                <dd><li type="square"><b>APIs</b>:Added many built-in APIs like Geolocation API,Web Storage (localStorage, sessionStorage),Web Workers,Drag-and-Drop API,Offline capabilities (Service Workers)</li></dd></ul></ol> 
+    <ol>
+
+        <h2>6.What are lists?</h2>
+        <ul>
+            <p>In HTML, lists are used to organize related items so they’re easier to read, navigate, and understand.Here are three main types of lists in HTML:</p></ul>
+            <ul><li type="circle"><b>Ordered Lists:</b></li></ul>
+            <ul><dd><li type="square">Items appear in a specific order, usually numbered.Used for step-by-step instructions, rankings, or sequences.</li></dd></ul>
+            <ul><li type="circle"><b>Unordered Lists:</b></li></ul>            
+            <ul><dd><li type="square">Items have no particular order; shown with bullets by default.Used for collections, categories, or things without ranking.</li></dd></ul>
+            <ul><li type="circle"><b>Description Lists:</b></li></ul>
+            <ul><dd><li type="square">These lists are used to define terms and their corresponding descriptions.Displays terms and their descriptions (like a glossary).</li></dd></ul>
+        </ol>  
+    <ol>
+        <h2>7.What is XTML and HTML?</h2>
+        <ul>
+            <b><li type="disc"><U>HTML(HyperText Markup Language)</U></li></b>
+            <p>A markup language used to create and structure webpages and present content in web browsers.It uses predefined tags to define the layout, text formatting, images, links, and other elements for display.</p></ul>
+            <ul><dd><li type="square"><b>Purpose</b>:Designed to display data in web browsers.</li></dd>
+                <dd><li type="square"><b>Focus</b>:How the data looks (presentation + structure).</li></dd>
+                <dd><li type="square"><b>Predefined tags </b>: Comes with a fixed set of tags like</li></dd>
+                <dd><li type="square"><b>Syntax</b>:Flexible — browsers often fix mistakes automatically</li></dd></ul> 
+        <ul>         
+            <b><li type="disc"><U>XML(Extensible Markup Language)</U></li></b>
+            <p>A markup language designed to store, transport, and organize data in a structured, human-readable, and machine-readable format.
+It uses custom tags defined by the user, and follows strict syntax rules to ensure the data is well-formed.</p></ul>
+            <ul><dd><li type="square"><b>Purpose</b>:Purpose: Designed to store and transport data, not display it.</li></dd>
+                <dd><li type="square"><b>Focus</b>: What the data is (meaning/content).</li></dd>
+                <dd><li type="square"><b>Custom tags</b>:You create your own tags to describe your data</li></dd>
+                <dd><li type="square"><b>Syntax</b>:Strict — must follow well-formed rules (proper nesting, lowercase, quoted attributes, closed tags).</li></dd></ul></ol>
+
+    </ol> 
+    <ol>
+        <h2>8.What are attributes?</h2>
+        <p>In HTML, attributes are like extra instructions you attach to a tag to control its behavior, give it additional information, or change how it appears.</p>
+         <p>some of the attribute sare listed below:</p> </ul>  
+         <ul><li type="square"><b><U>href</U></b>:The href attribute in HTML is used to specify the destination URL (or file path) for a link.</li>
+                <li type="square"><b><U>target</U></b>The target attribute in HTML specifies where the linked document will open when a user clicks on a link (or submits a form).</li>
+                <li type="square"><b><U>width and height</U></b>:In HTML, the width and height attributes specify the display size of certain elements, most commonly images.</li>
+                <li type="square"><b><U>download</U></b>:In HTML, the download attribute is used in an anchor tag to tell the browser to download the linked file instead of opening it.</li>
+                <li type="square"><b><U>id</U></b>:In HTML, the id attribute is used to give an element a unique identifier on a webpage..</li>
+                <li type="square"><b><U>src</U></b>:In HTML, the src attribute (short for “source”) tells the browser where to find the file that an element should load.</li>
+                <li type="square"><b><U>alt</U></b>:In HTML, the alt attribute (short for "alternative text") provides a text description for an image when it can’t be displayed.</li>
+                <li type="square"><b><U>title</U></b>:In HTML, the title attribute is used to provide extra information about an element.</li>
+                <li type="square"><b><U>type</U></b>:In HTML, the type attribute specifies the type or format of the element’s content or behavior.</li></ul></ol>
+
+
+
+        
+                    
+
+</body>
+</html>

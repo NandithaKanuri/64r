@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <img src="./images/form.jpg" alt="icon" width="100%">
+    </center>
+    <form action="./submit.html" method="get">>
+        <fieldset>
+            <legend><h3 style="background-color: lightskyblue;">Applicant Details</h3></legend>
+            <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                <tr>
+                    <td> <label for="name">Name</label>
+                        <input type="text" name="name" id="name"></td>
+                    <td><label for="fname">Father's/Guardian's Name</label>
+                        <input type="text" name="fname" id="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date  of birth</label>
+                        <input type="date" name="name" id="date"></td>
+                    <td><label for="gender">Gender</label>
+                        <input type="radio" name="gender" id="female" value="Femal">
+                    <label for="female">Female</label>
+                <input type="radio" name="gender" id="male" value="male" >
+                    <label for="male">male</label></td>
+                </tr>
+                <tr>
+                    <td ><label for="phno">WhatsApp No</label>
+                        <input type="tel" name="phno" id="phno" ></td>
+                    <td><label for="aadhar">Aadhar No<label>
+                        <input type="text" name="aadhar" id="aadhar" maxlength="12"></td>
+                </tr>
+                <tr>
+                    <td><label for="pic">Photo</label>
+                    <input type="file" name="pic" id="pic"></td>
+                    <td><label for="mail">E-mail Id</label>
+                    <input type="email" name="mail" id="mail"></td>
+                </tr>
+                
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><h3 style="background-color: lightskyblue;">Resedential Address Details</h3></legend>
+            <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                <tr>
+                    <td> <label for="address">Applicant's Address</label>
+                        <textarea name="address" id="address"></textarea></td>
+                        <td><label for="dist">District</label>
+                        <select name="dist" id="dist">
+                        <option value="dist">HYDERABAD</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="mandal">Mandal</label>
+                        <select name="mandal" id="mandal">
+                        <option value="mandal">HYDERABAD</option>
+                        </select></td>
+                    <td><label for="vill">Village</label>
+                        <select name="vill" id="vill" >
+                        <option value="vill">HYDERABAD</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pincode">Pincode</label>
+                        <input type="text" name="pincode" id="pincode" maxlength="6">
+                    </td>
+                </tr>
+    </table></fieldset>
+    <fieldset>
+         <legend><h3 style="background-color: lightskyblue;">Pass Type Details</h3></legend>
+         <table border="0" cellpadding="10" cellspacing="0" width="100%">
+            <tr>
+                <td><label for="city">City</label>
+                        <select name="city" id="city">
+                        <option value="city">HYDERABAD</option>
+                        </select></td>
+            </tr>
+            <tr>
+                <td><label for="passtyp">Pass Type</label>
+                        <select name="passtyp" id="passtyp">
+                        <option value="passtyp">----Select----</option>
+                        </select></td>
+                    </tr>     
+         </table>
+    </fieldset>
+    <fieldset>
+        <legend><h3 style="background-color: lightskyblue;">Mode of Payment & Pass Collection</h3></legend>
+        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+            <tr>
+                <td><label for="pay mode">Payment Mode</label>
+                        <select name="paymode" id="paymode">
+                        <option value="paymode">Select Payment Mode</option>
+                        </select></td>
+            </tr>
+            <tr>
+                <td><label for="delivery">Pass Delivery Mode</label>
+                        <select name="delivery" id="delivery" >
+                        <option value="delivery">Select Pass Delivery Mode</option>
+                        </select></td>
+            </tr>
+            <tr>
+                <td><label for="center">Center at which you want to Collect Pass</label>
+                        <select name="center" id="center">
+                        <option value="center">----Select----</option>
+                        </select></td>
+            </tr>
+        </table>
+    </fieldset>
+    <center>
+        <img src="./images/cpatcha.jpg" alt="captcha" width="400">
+        <br>
+        <input type="text">
+        <br>
+        <input type="submit">
+    </center>
+    </form>
+</body>
+</html>
